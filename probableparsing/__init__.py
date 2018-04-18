@@ -1,5 +1,5 @@
 class RepeatedLabelError(Exception) :
-    MESSAGE ='''
+    MESSAGE = u'''
 ERROR: Unable to tag this string because more than one area of the string has the same label
 
 ORIGINAL STRING:  {original_string}
@@ -10,7 +10,7 @@ When this error is raised, it's likely that either (1) the string is not a valid
 
 To report an error in labeling a valid name, open an issue at {repo_url} - it'll help us continue to improve probablepeople!'''
 
-    DOCS_MESSAGE = '''
+    DOCS_MESSAGE = u'''
 
 For more information, see the documentation at {docs_url}'''
     
