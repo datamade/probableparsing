@@ -25,6 +25,7 @@ For more information, see the documentation at {docs_url}'''
 
         self.original_string = original_string
         self.parsed_string = parsed_string
+        self.repeated_label = repeated_label
 
     def __str__(self) :
         return self.message
